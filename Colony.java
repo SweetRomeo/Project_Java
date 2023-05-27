@@ -156,8 +156,6 @@ class Game{
             }
             if(deathCount >= number_of_colonies - 1)
                 break;
-            System.out.println("Savaşı devam ettirmek için entera basınız...");
-            String str = kb.nextLine();
         }
     }
 }
